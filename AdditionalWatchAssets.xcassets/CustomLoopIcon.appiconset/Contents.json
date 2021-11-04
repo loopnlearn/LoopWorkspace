@@ -1,120 +1,92 @@
 {
   "images" : [
     {
-      "filename" : "watch_notification_center24x24@2x.png",
-      "idiom" : "watch",
-      "role" : "notificationCenter",
-      "scale" : "2x",
       "size" : "24x24",
+      "idiom" : "watch",
+      "filename" : "watch_notification_center24x24@2x.png",
+      "scale" : "2x",
+      "role" : "notificationCenter",
       "subtype" : "38mm"
     },
     {
-      "filename" : "watch_notification_center27.5x27.5@2x.png",
-      "idiom" : "watch",
-      "role" : "notificationCenter",
-      "scale" : "2x",
       "size" : "27.5x27.5",
+      "idiom" : "watch",
+      "filename" : "watch_notification_center27.5x27.5@2x.png",
+      "scale" : "2x",
+      "role" : "notificationCenter",
       "subtype" : "42mm"
     },
     {
+      "size" : "29x29",
+      "idiom" : "watch",
       "filename" : "watch_companion_settings29x29@2x.png",
-      "idiom" : "watch",
       "role" : "companionSettings",
-      "scale" : "2x",
-      "size" : "29x29"
+      "scale" : "2x"
     },
     {
+      "size" : "29x29",
+      "idiom" : "watch",
       "filename" : "watch_companion_settings29x29@3x.png",
-      "idiom" : "watch",
       "role" : "companionSettings",
-      "scale" : "3x",
-      "size" : "29x29"
+      "scale" : "3x"
     },
     {
-      "idiom" : "watch",
-      "role" : "notificationCenter",
-      "scale" : "2x",
-      "size" : "33x33",
-      "subtype" : "45mm"
-    },
-    {
-      "filename" : "watch_home40x40@2x.png",
-      "idiom" : "watch",
-      "role" : "appLauncher",
-      "scale" : "2x",
       "size" : "40x40",
+      "idiom" : "watch",
+      "filename" : "watch_home40x40@2x.png",
+      "scale" : "2x",
+      "role" : "appLauncher",
       "subtype" : "38mm"
     },
     {
-      "filename" : "watch_home44x44@2x.png",
-      "idiom" : "watch",
-      "role" : "appLauncher",
-      "scale" : "2x",
       "size" : "44x44",
+      "idiom" : "watch",
+      "filename" : "watch_home44x44@2x.png",
+      "scale" : "2x",
+      "role" : "appLauncher",
       "subtype" : "40mm"
     },
     {
-      "idiom" : "watch",
-      "role" : "appLauncher",
-      "scale" : "2x",
-      "size" : "46x46",
-      "subtype" : "41mm"
-    },
-    {
-      "filename" : "watch_home50x50@2x.png",
-      "idiom" : "watch",
-      "role" : "appLauncher",
-      "scale" : "2x",
       "size" : "50x50",
+      "idiom" : "watch",
+      "filename" : "watch_home50x50@2x.png",
+      "scale" : "2x",
+      "role" : "appLauncher",
       "subtype" : "44mm"
     },
     {
-      "idiom" : "watch",
-      "role" : "appLauncher",
-      "scale" : "2x",
-      "size" : "51x51",
-      "subtype" : "45mm"
-    },
-    {
-      "filename" : "watch_short_look86x86@2x.png",
-      "idiom" : "watch",
-      "role" : "quickLook",
-      "scale" : "2x",
       "size" : "86x86",
+      "idiom" : "watch",
+      "filename" : "watch_short_look86x86@2x.png",
+      "scale" : "2x",
+      "role" : "quickLook",
       "subtype" : "38mm"
     },
     {
-      "filename" : "watch_short_look98x98@2x.png",
-      "idiom" : "watch",
-      "role" : "quickLook",
-      "scale" : "2x",
       "size" : "98x98",
+      "idiom" : "watch",
+      "filename" : "watch_short_look98x98@2x.png",
+      "scale" : "2x",
+      "role" : "quickLook",
       "subtype" : "42mm"
     },
     {
-      "filename" : "watch_short_look108x108@2x.png",
-      "idiom" : "watch",
-      "role" : "quickLook",
-      "scale" : "2x",
       "size" : "108x108",
+      "idiom" : "watch",
+      "filename" : "watch_short_look108x108@2x.png",
+      "scale" : "2x",
+      "role" : "quickLook",
       "subtype" : "44mm"
     },
     {
-      "idiom" : "watch",
-      "role" : "quickLook",
-      "scale" : "2x",
-      "size" : "117x117",
-      "subtype" : "45mm"
-    },
-    {
-      "filename" : "watch_appstore1024x1024.png",
+      "size" : "1024x1024",
       "idiom" : "watch-marketing",
-      "scale" : "1x",
-      "size" : "1024x1024"
+      "filename" : "watch_appstore1024x1024.png",
+      "scale" : "1x"
     }
   ],
   "info" : {
-    "author" : "xcode",
-    "version" : 1
+    "version" : 1,
+    "author" : "xcode"
   }
 }
