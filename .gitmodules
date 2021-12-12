@@ -37,4 +37,4 @@
 [submodule "libre-direct-client-swift"]
 	path = libre-direct-client-swift
 	url = https://github.com/Jon-b-m/libre-direct-client-swift.git
-	branch=integration
+	branch = integration
