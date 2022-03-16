@@ -16,5 +16,5 @@ INCLUDED_SOURCE_FILE_NAMES = AdditionalAssets.xcassets
 
 APPICON_NAME = CustomLoopIcon
 
-Uncomment and change to your ID to sign all targets
+// Uncomment and change to your ID to sign all targets
 //LOOP_DEVELOPMENT_TEAM = T7VZ6LU6H3
