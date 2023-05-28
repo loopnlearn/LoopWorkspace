@@ -29,6 +29,17 @@ jobs:
         with:
           submodules: recursive
       
+          
+      # Customize Loop: Download and apply patches
+      - name: Customize Loop
+        run: | 
+
+          # The patches start here
+   
+          # Loop: LoopDataManager: Limit loop cycles to no more frequent than once every 4.8 minutes
+          curl https://github.com/loopnlearn/Loop/commit/414588c5e7dc36f692c8bbcf2d97adde1861072a.patch | git apply --directory=Loop
+                  
+
 
       
       # Patch Fastlane Match to not print tables
