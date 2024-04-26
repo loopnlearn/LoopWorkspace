@@ -1,45 +1,24 @@
-# LoopWorkspace
+## Do Not Use This Branch
 
-The Loop app can be built using GitHub workflows in the cloud from a browser on any computer or using a Mac with Xcode.
+This branch is kept for historical reasons. It is not supported and might not be usable with newer versions of Xcode and iOS.
 
-* Non-developers may prefer the GitHub workflow method, which does not require a mac.
-* Developers or Loopers who want full build control may prefer the local Mac/Xcode method.
+Please refer to the original repository to build Loop Verson 3 (and later): https://github.com/LoopKit/LoopWorkspace
 
-## GitHub Build Instructions
+* That is where Loop updates originate. 
 
-The GitHub Build Instructions are at this [link](fastlane/testflight.md) and further expanded in [LoopDocs: Browser Build](https://loopkit.github.io/loopdocs/gh-actions/gh-overview/).
+* The `main` and `dev` branches for this GitHub username (loopnlearn) fork of LoopWorkspace are manually updated to match LoopKit / LoopWorkspace, but you should not rely on this process.
 
-## Mac/Xcode Build Instructions
+* The other branches are no longer supported and should not be used.
 
-The rest of this README contains information needed for Mac/Xcode build. Additonal instructions are found in [LoopDocs: Mac/Xcode Build](https://loopkit.github.io/loopdocs/build/overview/).
+## History
 
-### Clone
+There was a fork created from LoopKit / LoopWorkspace called ivalkou / LoopWorkspace which was used to create an alternative to Loop version 2, called FreeAPS.
 
-This repository uses git submodules to pull in the various workspace dependencies.
+This fork, loopnlearn / LoopWorkspace was created from ivalkou / LoopWorkspace and used to support the FreeAPS version of Loop 2 after support was dropped by the ivalkou GitHub account.
 
-To clone this repo:
+* **FreeAPS is no longer supported and should not be used** 
+* Most features people used with FreeAPS are now included in Loop 3 or can be added with customization
 
-```
-git clone --branch=<branch> --recurse-submodules https://github.com/LoopKit/LoopWorkspace
-```
+Some branches in this repository were configured to add specific customizations for earlier versions of Loop 3. These are no longer needed and are not kept updated. [Customization scripts](https://www.loopandlearn.org/custom-code) are provided instead.
 
-Replace `<branch>` with the initial LoopWorkspace repository branch you wish to checkout.
-
-### Open
-
-Change to the cloned directory and open the workspace in Xcode:
-
-```
-cd LoopWorkspace
-xed .
-```
-
-### Input your development team
-
-You should be able to build to a simulator without changing anything. But if you wish to build to a real device, you'll need a developer account, and you'll need to tell Xcode about your team id, which you can find at https://developer.apple.com/.
-
-Select the LoopConfigOverride file in Xcode's project navigator, uncomment the `LOOP_DEVELOPMENT_TEAM`, and replace the existing team id with your own id.
-
-### Build
-
-Select the "LoopWorkspace" scheme (not the "Loop" scheme) and Build, Run, or Test.
+* Branches such as **main_lnl_patches** are out-of-date and should not be used
